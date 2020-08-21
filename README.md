@@ -10,7 +10,7 @@ This Python and Bash Code is added and Open Source to let others automate this p
 ## Installation:
 1. Download the files place them both in the ~ directory
 2. Add function script to .bashrc or .profile
-3. Add the GitHub Access Token in the Environment Variable as 'github_token' (export github_token="11111212121232312312321fsdfjsdfsdlfsd") 
+3. Add the GitHub Access Token in the Environment Variable as 'github_token' (export github_token="hkhfs1dhfks2dk3lfjasasarbg") 
 4. Install Python3
 5. Setup an ssh with your account on your local machine
 6. In case of skipping of any step may result in Error and breaking of program
