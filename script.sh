@@ -8,6 +8,8 @@ function help() {
 function test_create() {
     # Usage: Usage: create [project_name] [-m:message -> string] [-v:public_visibility -> t] [-p:path: project directory] 
 
+    PYTHON_PATH="~/script.py"
+
     # Variables
     ARGS=""
     project_name="untitled"         # Defaults to 'untitled'
@@ -74,7 +76,7 @@ function test_create() {
     # Creates a README.md file
     echo "# TODO" >> README.md
 
-    ssh_url=$(python3 ./../create_project.py $project_name $message $public_visibility)
+    ssh_url=$(python3 $PYTHON_PATH $project_name $message $public_visibility)
 
     # Initializes the directory as a git repository
     git init
