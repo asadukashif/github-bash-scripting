@@ -5,7 +5,7 @@ function help() {
     echo "Usage: create [project_name] [-m:message -> string] [-v:public_visibility -> t] [-p:path: project directory]"
 }
 
-function test_create() {
+function create() {
     # Usage: Usage: create [project_name] [-m:message -> string] [-v:public_visibility -> t] [-p:path: project directory] 
 
     PYTHON_PATH="~/script.py"
