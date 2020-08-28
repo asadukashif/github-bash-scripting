@@ -11,6 +11,7 @@ This command allows you to create a project folder in any given directory on you
 - It initializes your porject folder as a git repository `git init`.
 - It creates a `Github Repository` with the same name as your `Project Name` with the inital message being your optional message and visibility as provided by the user.
 - It creates a `README.md` file and does the inital commit for your project on `Github`.
+- Opens your favorite text editor for you. (Currently set to VSCode but can be changed from `script.sh`)
 
 ## Installation:
 1. Download the files place them both in the ~ directory
